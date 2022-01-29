@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="MarkusStyle"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="edebbca9-2cb5-47f0-b392-26b2788d1976"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

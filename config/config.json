@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "markus-style-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/markusStyle/MarkusStyleApplicationCustomizer.js",
+          "manifest": "./src/extensions/markusStyle/MarkusStyleApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MarkusStyleApplicationCustomizerStrings": "lib/extensions/markusStyle/loc/{locale}.js"
+  }
+}
